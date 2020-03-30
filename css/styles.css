@@ -1,0 +1,150 @@
+#title{
+  background-color: #ff4c68;
+  color: #ffff;
+
+}
+a
+{
+  font-family: 'Ubuntu', sans-serif;
+}
+h1
+{
+  display: inline-block;
+  font-family: 'Montserrat-black', sans-serif;
+  font-size: 3rem;
+  line-height: 1.5rem;
+  width: 75%;
+}
+p{
+  color: #8f8f8f;
+}
+
+body
+{
+  font-family: "Montserrat-bold";
+
+}
+h2
+{
+  line-height: 1.5;
+  font-family: "Montserrat-Bold";
+  font-size: 3rem;
+}
+/* navigation bar */
+.navbar-brand
+{
+  font-family: "Ubuntu";
+  font-weight: bold;
+  font-size: 2.5rem;
+}
+.nav-item
+{
+  padding: 0px 18px 0px;
+}
+.navbaar{
+  padding: 0px 0px 4.5rem 0px;
+
+}
+/* download buttons */
+.download
+{
+  margin: 5% 3% 5% 0;
+}
+/* image */
+.image
+{
+  width: 60%;
+  position: absolute;
+  right: 30%;
+  transform: rotate(25deg);
+}
+/* features */
+#features
+{
+  padding: 7% 15%;
+ background-color: #FFFF;
+ position: relative;
+ z-index: 1;
+}
+.feature-box
+{
+  text-align: center;
+  padding: 4%;
+}
+.icon
+{
+  color: #ef8172;
+  margin-bottom: 1rem;
+}
+.icon:hover
+{
+  color: #ff4c68;
+}
+
+
+/* Testimonials */
+#testimonials
+{
+
+  text-align: center;
+  background-color: #ef8172;
+  color: #ffff;
+}
+.testimonial-image
+{
+  border-radius: 100%;
+
+}
+/* press */
+#press{
+  background-color: #ef8172;
+  text-align: center;
+  padding-bottom: 3%;
+}
+.Press-logo
+{
+  width: 15%;
+  padding: 20px 15px 20px;
+}
+.carousel-item
+{
+    padding: 7% 15%;
+}
+/* pricing */
+#pricing
+{
+  text-align: center;
+  padding: 100px;
+}
+.pricing-card
+{
+  padding: 3% 2%;
+}
+@media (max-width: 1028px) {
+
+  #title{
+    text-align: center;
+  }
+  .image{
+    position: static;
+    transform: rotate(0);
+  }
+
+}
+/* cta */
+#cta
+{
+  background-color: #ff4c68;
+  text-align: center;
+  color: #FFFF;
+  padding: 7% 15%;
+}
+/* footer */
+#footer{
+  padding: 7% 15%;
+  text-align: center;
+}
+.social-icon
+{
+  margin: 0% 3%;
+}
